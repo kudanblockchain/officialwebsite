@@ -97,6 +97,16 @@ body {
   margin-bottom: 0;
 }
 
+.mybtn {
+  width: 280px;
+  height: 70px;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #00FDFF;
+  border-radius: 8px;
+  margin-right: 70px;
+}
+
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
