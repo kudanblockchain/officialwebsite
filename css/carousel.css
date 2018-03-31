@@ -18,12 +18,13 @@ body {
   font-size: 60px;
   letter-spacing: -1px;
   line-height: 1;
+  font-family: Gotham;
 }
 .jumbotron p {
   font-size: 24px;
   font-weight: 300;
   line-height: 1.25;
-  /* margin-bottom: 30px; */
+  font-family: Gotham;
 }
 
 /* CUSTOMIZE THE CAROUSEL
@@ -101,7 +102,7 @@ body {
   width: 280px;
   height: 70px;
   font-size: 24px;
-  font-weight: bold;
+  font-family: Gotham-Bold;
   background-color: #00FDFF;
   border-radius: 8px;
   margin-right: 70px;
@@ -128,4 +129,19 @@ body {
   .featurette-heading {
     margin-top: 7rem;
   }
+}
+
+@font-face {
+  font-family: Gotham-Book;
+  src: url('../fonts/Gotham-Book.otf')  format('opentype');
+}
+
+@font-face {
+  font-family: Gotham-Bold;
+  src: url('../fonts/Gotham-Medium.otf')  format('opentype');
+}
+
+@font-face {
+  font-family: GothamRounded-Book;
+  src: url('../fonts/Gotham-Light.otf')  format('opentype');
 }
