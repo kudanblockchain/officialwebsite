@@ -121,6 +121,10 @@ body {
   color: rgb(10, 3, 58, 0.8);
 }
 
+.img-social {
+  width: 21px;
+  height: 21px;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
